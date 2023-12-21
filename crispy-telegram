@@ -1,0 +1,13 @@
+        case .preview:
+            self = .edit
+        case .edit:
+            self = .preview
+        }
+    }
+}
+    case removeText(String)
+    case addSticker(Sticker)
+    case changeSticker(StickerModification, id: String)
+    case removeSticker(String)
+}
+
